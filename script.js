@@ -1,4 +1,4 @@
 console.log('external script');
-setTieout(function() {
+setTimeout(function() {
   g.x();
 }, 11000)
